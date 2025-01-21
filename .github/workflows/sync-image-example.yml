@@ -36,4 +36,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
-         skopeo copy docker://hub.docker.com/r/youshandefeiyang/allinone:latest docker://crpi-x39q5imbm3ye7o2b.cn-chengdu.personal.cr.aliyuncs.com/youshandefeiyang/allinone:latest
+         skopeo copy docker://docker.io/youshandefeiyang/allinone:latest docker://crpi-x39q5imbm3ye7o2b.cn-chengdu.personal.cr.aliyuncs.com/youshandefeiyang/allinone:latest
